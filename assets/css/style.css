@@ -1,0 +1,69 @@
+body{
+	font-size: 20px;
+	background: url("../images/hogwarts.jpg") no-repeat ; 
+	background-size: cover;
+	color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  display:block;
+  padding-top: 5vh;
+  padding-left: 5vw;
+}
+h1{
+  font-size: 120px;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+}
+
+.main-container{
+  width:40vw;
+  height:60vh;
+  position:relative;
+  left:55vw;
+  margin-top:12vh;
+  overflow:hidden;
+}
+
+.container{
+  background: black;
+  display: inline;
+  float:left;
+  width:50%;
+  border: 2px solid white;
+  height:100%;
+  text-align: center;
+}
+#leftContainer{
+	background:brown;
+	height:53%;
+
+}
+
+#rightContainer{
+
+  padding-top:10vh;
+}
+
+h3{
+	padding-bottom:1vh;
+}
+
+img{
+	
+	width:75%;
+	height:auto;
+	margin:auto;
+	padding-top:8%;
+
+}
+
+#frame{
+	width:100%;
+	
+	z-index:-1;
+
+}
