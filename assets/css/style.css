@@ -3,6 +3,11 @@ body{
 	background: url("../images/hogwarts.jpg") no-repeat ; 
 	background-size: cover;
 	color: white;
+  height:100vh;
+ 
+}
+span{
+  color:white;
 }
 * {
   box-sizing: border-box;
@@ -13,6 +18,8 @@ header{
   display:block;
   padding-top: 5vh;
   padding-left: 5vw;
+  color: darkgoldenrod;
+  text-align:center;
 }
 h1{
   font-size: 120px;
@@ -20,50 +27,60 @@ h1{
 }
 
 .main-container{
-  width:40vw;
-  height:60vh;
-  position:relative;
-  left:55vw;
-  margin-top:12vh;
-  overflow:hidden;
+  margin: auto;
+  max-width:700px;
+  width:70vw;
+  height:70vh;
+ 
+ 
 }
-
 .container{
-  background: black;
-  display: inline;
-  float:left;
-  width:50%;
-  border: 2px solid white;
-  height:100%;
-  text-align: center;
+  display:inline;
 }
-#leftContainer{
-	background:brown;
-	height:53%;
 
+
+#leftContainer{
+  display:inline-block;
+  float:left;
+  top:0;
+  left:0;
+	height:auto;
+  width:60%;
+  
+
+}
+div #pic{
+  height:200px;
 }
 
 #rightContainer{
-
-  padding-top:10vh;
+  display:inline-block;
+  float:left;
+  width:40%;
+  height:100%;
+  padding-top:5%;
+  background: black;
+  border: 2px solid white;
+  text-align: center;
 }
 
 h3{
 	padding-bottom:1vh;
 }
 
-img{
-	
-	width:75%;
-	height:auto;
-	margin:auto;
-	padding-top:8%;
 
+
+#pic{
+  display:block;
+  margin: auto;
+  width:70%;
+  margin-top:5%;
+  border:10px solid darkgoldenrod;
+ 
 }
 
-#frame{
-	width:100%;
-	
-	z-index:-1;
-
+span #miss{
+  text-align: center;
 }
+
+

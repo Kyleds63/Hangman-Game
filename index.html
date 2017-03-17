@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,intial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <title> Hangman-Game</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
@@ -17,10 +17,7 @@
 
   <section class="main-container">
     <div class="container" id="leftContainer">
-      <img src="assets/images/blank.jpg" alt="placeholder" >
-      <img id= "frame" src="assets/images/pictureFrame.png" alt="picture frame" >
-
-
+        <div id="pic"></div>
     </div>
 
     <div class="container" id="rightContainer">
@@ -29,29 +26,30 @@
 
       <h3> WINS </h3>
       <br>
+      <span id="wins"></span>
 
       <h3> CURRENT WORD </h3>
       <br>
 
-      <h3>_ _ _ _ SPAN HERE _ _ _ _ _</h3>
+      <span id="blanks"></span>
       <br>
 
       <h3>NUMBER OF GUESSES REMAINING</h3>
       <br>
 
-      <h3> 15 </h3>
+      <span id=guesses> </span>
       <br>
 
       <h3> LETTERS ALREADY GUESSED</h3>
       <br>
 
-      <h3>-------SPAN---HERE------</h3>
+      <span id="miss"></span>
     </div>
 
 
   </section>
  
-
+  <script type ="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 
